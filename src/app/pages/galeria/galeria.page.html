@@ -1,0 +1,13 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Galería</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <!-- Menú secundario para las subpáginas de galería -->
+  <app-nav-menu [botones]="botones"></app-nav-menu>
+
+  <!-- Aquí cargan las subpáginas hijas -->
+  <router-outlet></router-outlet>
+</ion-content>

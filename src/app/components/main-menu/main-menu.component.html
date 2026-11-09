@@ -1,0 +1,7 @@
+<ion-toolbar color="primary">
+    <ion-buttons slot="start">
+        <ion-button *ngFor="let pag of paginas" [routerLink]="pag.ruta" routerLinkActive="active-link">
+            {{ pag.texto }}
+        </ion-button>
+    </ion-buttons>
+</ion-toolbar>

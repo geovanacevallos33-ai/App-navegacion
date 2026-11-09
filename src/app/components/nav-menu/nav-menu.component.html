@@ -1,0 +1,7 @@
+<ion-toolbar>
+    <ion-buttons>
+        <ion-button *ngFor="let b of botones" [routerLink]="b.ruta">
+            {{ b.texto }}
+        </ion-button>
+    </ion-buttons>
+</ion-toolbar>
